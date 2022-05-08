@@ -5,6 +5,7 @@ function greeting(turnCount, answerArray) {
     "Загаданое компьютером слово:<br>" + answerArray.join(" ") + "<br>Нажмите Далее, чтобы начать.";  // полностью описать правила
 }
 
+
 function pickWord(words) {
     return words[Math.floor(Math.random() * words.length)];
 }
